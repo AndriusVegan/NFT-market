@@ -4,8 +4,7 @@ import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return 
-  (
+  return (
     <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
    <Component {...pageProps} />
   </ThirdwebProvider>
