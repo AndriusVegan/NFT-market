@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import NFTDropPage from './nft/[id]'
+// import NFTDropPage from './nft/[id]'
 
 const Home: NextPage = () => {
   return (
@@ -8,8 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>NFT Vegan Page</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
- <NFTDropPage />  
+      </Head> 
      </div>
   )
 }
